@@ -205,7 +205,8 @@
         "DBInstanceClass"    : { "Ref" : "DatabaseType" },
         "DBSecurityGroups"   : [ { "Ref": "DBSecurityGroup" } ],
         "MasterUsername"     : { "Ref" : "DatabaseUser" },
-        "MasterUserPassword" : { "Ref" : "DatabasePassword" }
+        "MasterUserPassword" : { "Ref" : "DatabasePassword" },
+        "StorageEncrypted": true
       }
     },
 
